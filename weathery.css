@@ -1,0 +1,91 @@
+/*Base*/
+
+body {
+  background-color: #009688;
+  color: #fcfcfc;
+}
+
+.color-white {
+  color: #fcfcfc;
+}
+
+.color-red {
+  color: #e74c3c;
+}
+
+.color-blue {
+  color: #aed6f1;
+}
+
+.color-yellow {
+  color: #f4d03f;
+}
+
+.color-green {
+  color: #009688;
+}
+
+.color-navy {
+  color: #34495e;
+}
+
+.cursor-hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/*Weathery*/
+nav {
+  color: #f4d03f;
+  background-color: #34495e;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.nav-title {
+  width: 100%;
+}
+
+#weather {
+  font-size: 70px;
+  color: #f4d03f;
+  padding: 20px;
+}
+
+.weather-icon {
+
+}
+
+#refresh {
+  background-color: #e74c3c;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#display {
+  background-color: #34495e;
+  position: relative;
+  top: 20vh;
+  border-radius: 50px;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.25);
+  font-size: 28px;
+}
+
+#temperature-switch {
+  margin-left: 10px;
+  vertical-align:middle;
+  display:inline-table;
+  background-color: #e74c3c;
+}
+
+#celsius {
+  vertical-align:middle;
+  display:inline-table;
+}
+
+#fahrenheit {
+  vertical-align:middle;
+  display:inline-table;
+}

@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <!-- FontAwesome -->
+    <script src="https://use.fontawesome.com/5520a40932.js"></script>
+    <!-- Weather Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" integrity="sha256-mkiM+ysrCOrjd7E5S55/Zs+2iocxoDlF9zQVyMxiDv8=" crossorigin="anonymous" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css" integrity="sha256-tqnsGuq1RhhSNqeZr8GW+PXVDpiNDwNujo4iNsdP50o=" crossorigin="anonymous" />
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js" integrity="sha256-8E6QUcFg1KTnpEU8TFGhpTGHw5fJqB9vCms3OhAYLqw=" crossorigin="anonymous"></script>
+
+    <!-- App JS & CSS -->
+    <script src="weathery.js"></script>
+    <link href="weathery.css" media="all" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+      <div class="nav-title row text-center">
+        <div class="col-sm-12">
+          <h1>Weathery</h1>
+        </div>
+      </div>
+    </nav>
+
+    <div id="refresh" class="btn btn-default text-center cursor-hover">
+      <i class="fa fa-refresh"></i>
+    </div>
+
+    <div class="container">
+
+      <div class="row text-center">
+        <div id="display" class="col-sm-12">
+          <div>
+
+            <div id="temperature-display">
+              <i class="fa fa-thermometer-0" aria-hidden="true"></i> Loading Temperature
+            </div>
+
+            <div class="weather-display">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
